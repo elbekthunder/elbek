@@ -1,0 +1,29 @@
+.header {
+    height: 70px;
+    grid-area: h;
+    background-color: #252525;
+}
+
+.img_logo {
+    width: 20%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.bloc_burger {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 70px;
+    height: 70px;
+    background-color: #303030;
+}
+
+.bloc_header {
+    display: flex;
+    justify-content: space-between;
+}
