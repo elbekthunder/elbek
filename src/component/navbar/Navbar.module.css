@@ -1,0 +1,12 @@
+.nav {
+    grid-area: n;
+    background-color: #303030;
+
+}
+
+.item {
+    color: rgba(255, 183, 0, 0.77);
+    letter-spacing: 0.4em;
+    text-align: center;
+    text-decoration: none;
+}

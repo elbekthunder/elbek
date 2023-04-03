@@ -1,0 +1,13 @@
+
+.item {
+    width: 35%;
+    color: #fff;
+    background-color: #303030;
+    margin-top: 15px;
+}
+
+.img {
+    width:45px;
+    height:45px;
+    border-radius: 50%;
+}

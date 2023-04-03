@@ -1,0 +1,29 @@
+.dialog {
+   display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+
+.dialogs_items {
+    color: white;
+}
+
+.messages {
+    color: goldenrod;
+}
+
+.item {
+
+}
+
+.block__area {
+    display: inline-block;
+}
+
+.item_link{
+    text-decoration: none;
+    color: white;
+}
+
+.text {
+
+}

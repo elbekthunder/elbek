@@ -1,0 +1,18 @@
+
+.block {
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 500;
+    color:#fff ;
+    display: grid;
+    letter-spacing: 0.4em;
+}
+
+.img__block {
+
+}
+
+.img {
+    width: 100%;
+
+}

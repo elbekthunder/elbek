@@ -7,16 +7,16 @@
     "n c";
     grid-auto-rows: 60px 1fr;
     grid-template-columns:2fr 10fr;
-    grid-gap: 10px;
-}
-
-
-.nav {
-    grid-area: n;
-    background-color: gold;
+    grid-gap: 20px;
+    background-color: #252222BA;
 }
 
 .content {
     grid-area: c;
-    background-color: brown;
+    background-color: #252525;
 }
+
+
+
+
+
