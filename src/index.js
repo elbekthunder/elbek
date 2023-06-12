@@ -1,21 +1,16 @@
 import React from 'react';
-import store from "./redux/state";
+import store from "./redux/reduxStore";
 import ReactDOM from 'react-dom/client';
 import App from './App';
-
-
-
+import {Provider} from "react-redux";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-let rerenderEntireFree = (state) => {
     root.render(
-        <React.StrictMode>,
-                 <App state={state}
-                 dispatch={store.dispatch.bind(store)}/>
+
+        <React.StrictMode>
+            <Provider store={store}>
+                <App />
+            </Provider>
         </React.StrictMode>
     );
-}
 
-
-rerenderEntireFree(store.getState());
-store.subscribe(rerenderEntireFree);
